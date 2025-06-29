@@ -20,7 +20,7 @@ int main(){
         else s.erase(name);
     }
 
-    for (auto j = s.rbegin(); j != s.rend(); ++j){
+    for (auto j = s.rbegin(); j != s.rend(); j++){
         cout << *j << '\n';
     }
 }
