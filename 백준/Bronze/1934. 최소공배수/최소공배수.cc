@@ -17,6 +17,6 @@ int main(){
 
     for (int i = 0; i < t; i++){
         cin >> a >> b;
-        cout << a * b / gcd(b, a) << '\n';
+        cout << a * b / gcd(a, b) << '\n';
     }
 }
