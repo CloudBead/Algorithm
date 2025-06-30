@@ -26,5 +26,5 @@ int main(){
         if (list[tmp] == 2) cnt -= 2;
     }
 
-    cout << cnt << '\n';
+    cout << cnt;
 }
