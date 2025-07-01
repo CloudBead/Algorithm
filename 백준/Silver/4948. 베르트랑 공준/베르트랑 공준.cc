@@ -10,7 +10,6 @@ int main(){
     vector<bool> isPrime(246913, true);
     isPrime[0] = isPrime[1] = false;
 
-    // 에라토스테네스의 체
     for (int i = 2; i * i < 246913; ++i) {
         if (isPrime[i]) {
             for (int j = i * i; j < 246913; j += i) {
