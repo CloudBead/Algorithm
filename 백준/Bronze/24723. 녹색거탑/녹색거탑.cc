@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 int main(){
@@ -8,7 +7,8 @@ int main(){
     cout.tie(0);
 
     int n;
+    
     cin >> n;
 
-    cout << (int)pow(2, n) << '\n';
+    cout << (1<<n);
 }
