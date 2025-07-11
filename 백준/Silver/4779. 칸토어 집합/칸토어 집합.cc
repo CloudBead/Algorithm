@@ -24,7 +24,7 @@ int main() {
 
     while (cin >> N){
         int len = pow(3,N);
-        char* res = new char[len + 1];
+        char* res = new char[len];
 
         for (int i = 0; i < len; i++) {
                 res[i] = '-';
